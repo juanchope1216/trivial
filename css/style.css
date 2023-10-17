@@ -1,0 +1,137 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  background-repeat: no-repeat;
+    background-image: url(https://content.wepik.com/statics/1833293/colorful-comic-style-zoom-background-r-182443752page1.jpg);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+
+    width: 100%;
+    height: 80%;
+    padding: 5%;
+}
+.right{
+    width: 48%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+
+}
+.opciones{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 5%;
+    border-radius: 5px ;
+    margin: 5%;
+    background-color: rgba(22, 11, 177, 0.815);
+    cursor: pointer;
+    
+   
+    
+}
+.left{
+    width: 48%;
+    padding: 1%;
+    flex-direction: column;
+    display: flex;
+}
+
+.cajaREspuestas{
+    box-shadow:2px 2px 2px 2px black;
+    margin-top: 2%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: rgb(250, 250, 250);
+}
+
+.hijo{
+    border-radius: 20px;
+    background-color: rgba(22, 40, 197, 0);
+    height: 60%;
+    width: 70%;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.pregunta{
+    box-shadow:2px 2px 2px 2px black;
+    text-align: center;
+   background-color: white;
+   border: 2px black;
+   border-radius: 30px;
+   padding: 2%;
+   width: 100%;
+}
+
+span.title{
+    background-color: rgba(152, 33, 221, 0); 
+    font-weight: bold;
+    
+    
+}
+
+.categoria{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 2px;
+}
+
+.opciones:hover{
+    background-color:rgba(11, 6, 63, 0.527);
+    
+    
+}
+
+.boton{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    border-radius: 15px;
+   cursor: pointer;
+    background-color: rgb(22, 11, 177);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    background-color:  rgb(26, 21, 94);;
+    
+}
+
+.Correcto{
+   background-color: green;
+}
+
+.incorrecto{
+    background-color: red;
+}
